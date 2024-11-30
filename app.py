@@ -51,7 +51,6 @@ HTML_TEMPLATE = '''
     </style>
 </head>
 <body>
-<a href="{{ m3u8_source}}">Link</a>
     <div class="container">
         <video controls crossorigin playsinline></video>
     </div>
