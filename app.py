@@ -10,6 +10,7 @@ def get_m3u8(link):
             'format': 'best',
             'noplaylist': True,
             'quiet': True
+            'cookiefile': './cookies.txt'  # Pass cookies to yt-dlp
         }
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
